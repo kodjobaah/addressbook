@@ -55,6 +55,25 @@ public class AddressBookTest {
         assertEquals("Jackson",address.getLastName());
 
     }
+
+    @Test
+    public void findPersonByFirstName() {
+
+        List<Address> addresses = addresssBook.buildAddressBook();
+        Address address = addresssBook.findPersonByFirstName("Bill");
+
+        assertEquals("Bill",address.getFirstName());
+        assertEquals("McKnight", address.getLastName());
+    }
+
+    @Test
+    public void howManyDaysIsBillOlderThanPaul() {
+
+        List<Address> addresses = addresssBook.buildAddressBook();
+        Long daysOlder = addresssBook.howManyDaysOlder("Bill", "Paul");
+
+        assertEquals(new Long(2862L),daysOlder);
+    }
     @Test
     public void testReadAddress() {
 

@@ -2,6 +2,7 @@ package com.addressbook;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.time.Duration;
 import java.time.LocalDate;
 import java.time.Year;
 import java.time.format.DateTimeFormatter;
@@ -123,5 +124,32 @@ public class AddressBook {
         }
 
         return oldestPerson;
+    }
+
+    public Address findPersonByFirstName(String firstName) {
+
+        Address add = null;
+
+        for(Address address: addresses) {
+            if (address.getFirstName().equalsIgnoreCase(firstName)) {
+                add = address;
+                break;
+            }
+        }
+
+        return add;
+    }
+
+    public Long howManyDaysOlder(String firstNameOfPerson1, String firstNameOfPerson2) {
+
+        long diff = -1;
+        Address address1 = findPersonByFirstName(firstNameOfPerson1);
+        Address address2 = findPersonByFirstName(firstNameOfPerson2);
+
+        if ((address1 != null) && (address2 != null)) {
+
+            diff = Duration.between(address1.getDob().atTime(0, 0), address2.getDob().atTime(0, 0)).toDays();
+        }
+        return diff;
     }
 }
