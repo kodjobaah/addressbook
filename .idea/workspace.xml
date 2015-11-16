@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee060f7e-8e81-4910-870d-73f2d79bb11c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/addressbook/AddressBook.java" afterPath="$PROJECT_DIR$/src/main/java/com/addressbook/AddressBook.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/addressbook/AddressBookTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/addressbook/AddressBookTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/addressbook/AddressBookFileReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/addressbook/AddressBookFileReader.java" />
     </list>
     <ignored path="addressbook.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddressBookTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddressBookTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/addressbook/AddressBookTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5408416">
-              <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,14 +77,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddressBookFileReader.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AddressBookFileReader.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/addressbook/AddressBookFileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.57549506">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -134,11 +131,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/addressbook/AddressBook.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/addressbook/AddressBookFileReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/addressbook/AddressBookFileReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/addressbook/AddressBookFileReaderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/addressbook/Address.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/addressbook/AddressBook.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/addressbook/AddressBookTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/addressbook/AddressBookFileReader.java" />
       </list>
     </option>
   </component>
@@ -295,33 +292,7 @@
       <recent name="com.addressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddressBookTest.testReadAddress">
-    <configuration default="false" name="AddressBookTest.howManyMalesInAddressBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.addressbook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="addressbook" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="com.addressbook.AddressBookTest" />
-      <option name="METHOD_NAME" value="howManyMalesInAddressBook" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.AddressBookTest">
     <configuration default="false" name="AddressBookTest.theOldestPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -414,6 +385,32 @@
       <option name="MAIN_CLASS_NAME" value="com.addressbook.AddressBookTest" />
       <option name="METHOD_NAME" value="testReadAddress" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AddressBookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="addressbook" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="com.addressbook.AddressBookTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -622,19 +619,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AddressBookTest.howManyMalesInAddressBook" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AddressBookTest.theOldestPerson" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AddressBookTest.findPersonByFirstName" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AddressBookTest.howManyDaysIsBillOlderThanPaul" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AddressBookTest.testReadAddress" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AddressBookTest.theOldestPerson" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AddressBookTest.findPersonByFirstName" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AddressBookTest.howManyDaysIsBillOlderThanPaul" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AddressBookTest.testReadAddress" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AddressBookTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AddressBookTest.testReadAddress" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AddressBookTest.howManyDaysIsBillOlderThanPaul" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AddressBookTest.findPersonByFirstName" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AddressBookTest.theOldestPerson" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AddressBookTest.howManyMalesInAddressBook" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AddressBookTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AddressBookTest.testReadAddress" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AddressBookTest.howManyDaysIsBillOlderThanPaul" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AddressBookTest.findPersonByFirstName" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AddressBookTest.theOldestPerson" />
       </list>
     </recent_temporary>
   </component>
@@ -684,7 +681,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329591" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329591" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -741,27 +738,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/addressbook/Address.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/addressbook/AddressBookTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-          <folding>
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/addressbook/AddressBookFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -788,13 +768,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/addressbook/AddressBookTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/addressbook/Address.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5408416">
-          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/addressbook/AddressBookFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57549506">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

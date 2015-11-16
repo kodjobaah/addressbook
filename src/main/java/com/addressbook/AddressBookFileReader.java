@@ -1,9 +1,6 @@
 package com.addressbook;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 /**
  * Created by kodjobaah on 16/11/2015.
@@ -11,33 +8,32 @@ import java.io.IOException;
 public class AddressBookFileReader {
 
 
+    BufferedReader bufferedReader = null;
     FileReader reader = null;
-
     public AddressBookFileReader(String fileName) throws FileNotFoundException {
         reader = new FileReader(new File(fileName));
+        bufferedReader = new BufferedReader(reader);
     }
 
     public String readLine() {
 
-        int data = 0;
-        char value = '\0';
-        StringBuilder line = new StringBuilder();
+        String line = null;
         try {
-            do {
-                data = reader.read();
-                if (data != -1) {
-                    value = (char) data;
-                    if (value != '\n')
-                        line.append(value);
-                }
+            line = bufferedReader.readLine();
 
-            } while ((value != '\n') && (data != -1));
+
+            if (line == null) {
+                reader.close();
+                return "";
+            }
 
         } catch (IOException e) {
             e.printStackTrace();
-            return null;
+            return "";
         }
-        return line.toString();
+
+
+        return line;
     }
 
 }
